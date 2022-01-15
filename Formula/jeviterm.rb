@@ -5,6 +5,7 @@ class Jeviterm < Formula
   head "https://github.com/jevinskie/jeviterm.git", :branch => "main"
 
   depends_on "cmake" => :build
+  depends_on "boost" => :build
   depends_on "protobuf"
 
   def install
